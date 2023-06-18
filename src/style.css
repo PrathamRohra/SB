@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#hero {
+  background-image: url('./assets/Mask Group 4.svg');
+  background-size: full;
+}
+#about-us {
+  background-image: url('./assets/About-Us.svg'), url('./assets/About-Us2.svg'), url('./assets/About-Us3.svg');
+  background-size: 70vw, 20vw, 20vw; 
+  background-position-x: -20vw, right, right;
+  background-position-y: top, top, bottom;
+}
+
+#core-tech {
+ background-image: url('./assets/Set-Of-Tri.svg');
+ background-position-x: -50px;
+ background-position-y: top;
+ background-size: 25vw;
+}
+
+#contact-us {
+  background-image: url('./assets/SingleTri.svg');
+  background-position-y: top;
+  background-position-x: 200px;
+  background-size: 8vw;
+}
+
+#footer {
+  background-image: url('./assets/Footer.svg');
+}
+
+
+#login-bg {
+  background-image: url('./assets/About-Us.svg');
+  background-size: 80vw; 
+  background-position-x: -24vw;
+  background-position-y: -14vh;
+}
