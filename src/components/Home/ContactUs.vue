@@ -1,15 +1,15 @@
 <template>
   <section
     id="contact-us"
-    class="bg-cover bg-no-repeat h-screen w-screen mt-10 p-4"
+    class="bg-cover bg-no-repeat w-full lg:h-screen lg:w-screen md:p-4"
   >
     <div class="flex flex-row justify-between">
-      <img src="../../assets/Contact-Us-Graphic.svg" class="mt-40 w-[40vw]" />
+      <img src="../../assets/Contact-Us-Graphic.svg" class="mt-40 ml-10 w-[85vw] md:w-[40vw]" />
       <div
-        class="bg-white shadow-lg shadow-blue/20 rounded-md w-1/3 min-h-[50vh] mr-32"
+        class="-ml-[90vw] md:-ml-20 opacity-90 md:opacity-100 bg-white md:shadow-lg md:shadow-blue/20 rounded-md w-full h-1/2 lg:w-1/3 lg:min-h-[50vh] mr-32"
       >
         <form
-          class="p-14 text-xl"
+          class="p-14 text-xl w-full"
           action="https://formsubmit.co/fe262bac81500884424cb3df8d4f17f9"
           method="POST"
           @submit="handleSubmit"

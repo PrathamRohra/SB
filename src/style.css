@@ -13,9 +13,29 @@
   #about-us {
     background-image: url('./assets/About-Us.svg'), url('./assets/About-Us2.svg'), url('./assets/About-Us3.svg');
     background-size: 70vw, 20vw, 20vw; 
-    background-position-x: -20vw, right, right;
+    background-position-x: -25vw, right, right;
     background-position-y: top, top, bottom;
   }
+  #core-tech {
+    background-image: url('./assets/Set-Of-Tri.svg');
+    background-position-x: -50px;
+    background-position-y: top;
+    background-size: 25vw;
+   }
+   #contact-us {
+    background-image: url('./assets/SingleTri.svg');
+    background-position-y: top;
+    background-position-x: 200px;
+    background-size: 8vw;
+  }
+
+  #login-bg {
+    background-image: url('./assets/About-Us.svg');
+    background-size: 80vw; 
+    background-position-x: -24vw;
+    background-position-y: center;
+  }
+   
 }
 
 @media screen and (max-width: 1020px) {
@@ -26,9 +46,29 @@
   #about-us {
     background-image: url('./assets/About-Us.svg'), url('./assets/About-Us2.svg'), url('./assets/About-Us3.svg');
     background-size: 70vw, 20vw, 20vw; 
-    background-position-x: -20vw, right, right;
+    background-position-x: -40vw, right, right;
     background-position-y: top, top, bottom;
   }
+  #core-tech {
+    background-image: url('./assets/Set-Of-Tri.svg');
+    background-position-x: -50px;
+    background-position-y: top;
+    background-size: 25vw;
+   }
+   #contact-us {
+    background-image: url('./assets/SingleTri.svg');
+    background-position-y: top;
+    background-position-x: 200px;
+    background-size: 8vw;
+  }
+
+  #login-bg {
+    background-image: url('./assets/About-Us.svg');
+    background-size: 80vw; 
+    background-position-x: -24vw;
+    background-position-y: center;
+  }
+   
 }
 
 
@@ -39,15 +79,35 @@
   }
   #about-us {
     background-image: url('./assets/About-Us.svg'), url('./assets/About-Us2.svg'), url('./assets/About-Us3.svg');
-    background-size: 60vw, 20vw, 20vw; 
+    background-size: 55vw, 20vw, 20vw; 
     background-position-x: -20vw, right, right;
     background-position-y: top, top, bottom;
   }
+  #core-tech {
+    background-image: url('./assets/Set-Of-Tri.svg');
+    background-position-x: -50px;
+    background-position-y: top;
+    background-size: 25vw;
+   }
+   #contact-us {
+    background-image: url('./assets/SingleTri.svg');
+    background-position-y: top;
+    background-position-x: 200px;
+    background-size: 8vw;
+  }
+
+  #login-bg {
+    background-image: url('./assets/About-Us.svg');
+    background-size: 70vw; 
+    background-position-x: -24vw;
+    background-position-y: center;
+  }
+   
 }
 
 
 /* MOBILE */
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
   #hero {
     background-image: url('./assets/Mask Group 4.svg');
     background-size: 620px auto;
@@ -60,37 +120,33 @@
 
   #about-us {
     background-image: url('./assets/About-Us.svg'), url('./assets/About-Us2.svg'), url('./assets/About-Us3.svg');
-    background-size: 50vw, 16vw, 16vw; 
+    background-size: 55vw, 16vw, 16vw; 
     background-position-x: -20vw, right, right;
     background-position-y: 40px, top, bottom;
     width: 540px;
   }
-}
+  #our-services {
+    background-image: inherit;
+    width: 580px;
+  }
+  #core-tech {
+    width: 540px;
+  }
+  #contact-us {
+    background-image: url('./assets/SingleTri.svg');
+    background-position-y: center;
+    background-position-x: 96px;
+    background-size: 8vw;
+    width: 580px;
+  }
+  #footer{
+    width: 580px;
+  }
 
-
-
-#core-tech {
- background-image: url('./assets/Set-Of-Tri.svg');
- background-position-x: -50px;
- background-position-y: top;
- background-size: 25vw;
-}
-
-#contact-us {
-  background-image: url('./assets/SingleTri.svg');
-  background-position-y: top;
-  background-position-x: 200px;
-  background-size: 8vw;
-}
-
-#footer {
-  background-image: url('./assets/Footer.svg');
-}
-
-
-#login-bg {
-  background-image: url('./assets/About-Us.svg');
-  background-size: 80vw; 
-  background-position-x: -24vw;
-  background-position-y: -14vh;
+  #login-bg {
+    background-image: url('./assets/About-Us.svg');
+    background-size: 90vw; 
+    background-position-x: 10vw;
+    background-position-y: center; /*-14vh*/
+  }
 }

@@ -1,6 +1,6 @@
 <template>
-  <section id="core-tech" class="bg-cover h-screen w-screen bg-no-repeat flex flex-col items-center justify-center text-center">
-    <h1 class="text-3xl font-extrabold -mt-32">Core Technologies</h1>
+  <section id="core-tech" class="mb-64 bg-cover h-screen w-screen bg-no-repeat flex flex-col items-center justify-center text-center">
+    <h1 class="text-xl lg:text-3xl font-extrabold">Core Technologies</h1>
     <p class="font-light mt-10 w-1/2">Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis accu msan congue euisque blandit dui Pelle ntesque habitant.</p>
     <div class="mt-14 flex flex-row w-1/4 h-14 space-x-8 justify-center items-center bg-white shadow-2xl shadow-[#0E77FF26]/50 rounded-full">
       <button class="hover:text-blue">Design</button>

@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-1 w-auto md:mt-20">
+  <section class="mt-1 w-auto md:mt-40 ">
     <div id="about-us" class="w-full flex md:justify-end justify-center bg-contain bg-no-repeat md:pr-64 lg:min-h-[840px] lg:max-h-[840px] text-black md:pl-56 pl-10 pt-20 md:pt-44">
       <div class="flex flex-col max-w-xs md:max-w-lg">
         <div class="flex flex-row items-center space-x-4 mb-2">

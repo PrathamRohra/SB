@@ -1,8 +1,9 @@
 <template>
-  <div id="login-bg" class="bg-cover bg-no-repeat h-screen">
-    <div class="text-black flex flex-row justify-end">
+  <div id="login-bg" class="bg-cover bg-no-repeat h-screen w-full">
+    
+    <div class="text-black flex flex-row justify-end w-full">
       <!--CARD-->
-      <div class="w-[35vw] h-60vh m-28 p-28">
+      <div class="w-[90vw] md:w-[60vw] lg:w-[35vw] h-60vh m-28 p-28">
         <form
           class="flex flex-col"
           action="https://formsubmit.co/fe262bac81500884424cb3df8d4f17f9"
@@ -12,7 +13,7 @@
           <h1 class="mb-10 font-bold text-xl">Login to Access Dashboard</h1>
           <label class="mb-1"> Email<span class="text-red-600">*</span></label>
           <input
-            class="h-10 w-full outline outline-[0.1px] mb-6 p-2 pl-4 text-xs"
+            class="h-10 w-full outline outline-[0.1px] active:outline-none focus:outline-none mb-6 p-2 pl-4 text-xs"
             placeholder="youremail@example.com"
             name="email"
             type="email"
@@ -22,7 +23,7 @@
             Password <span class="text-red-600">*</span>
           </label>
           <input
-            class="h-10 w-full outline outline-[0.1px] p-2 pl-4 text-xs"
+            class="h-10 w-full outline outline-[0.1px] p-2 pl-4 text-xs active:outline-none focus:outline-none"
             type="password"
             placeholder="shhhhhhh"
             name="password"
