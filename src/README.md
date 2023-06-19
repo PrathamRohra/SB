@@ -1,4 +1,4 @@
-# [Name Goes Here]
+# SB
 This project is built with Vue.js and Chart.js styled with TailwindCSS. Additionally, this project uses Vuex to access data through globalized store.
 
 The following sections provide an overview of the project structure and the contents of the `src/` directory.
