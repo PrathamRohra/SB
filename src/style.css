@@ -5,17 +5,69 @@
   font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (min-width: 1080px) {
+  #hero {
+    background-image: url('./assets/Mask Group 4.svg');
+    background-size: full;
+  }
+  #about-us {
+    background-image: url('./assets/About-Us.svg'), url('./assets/About-Us2.svg'), url('./assets/About-Us3.svg');
+    background-size: 70vw, 20vw, 20vw; 
+    background-position-x: -20vw, right, right;
+    background-position-y: top, top, bottom;
+  }
+}
 
-#hero {
-  background-image: url('./assets/Mask Group 4.svg');
-  background-size: full;
+@media screen and (max-width: 1020px) {
+  #hero {
+    background-image: url('./assets/Mask Group 4.svg');
+    background-size: 100vw auto;
+  }
+  #about-us {
+    background-image: url('./assets/About-Us.svg'), url('./assets/About-Us2.svg'), url('./assets/About-Us3.svg');
+    background-size: 70vw, 20vw, 20vw; 
+    background-position-x: -20vw, right, right;
+    background-position-y: top, top, bottom;
+  }
 }
-#about-us {
-  background-image: url('./assets/About-Us.svg'), url('./assets/About-Us2.svg'), url('./assets/About-Us3.svg');
-  background-size: 70vw, 20vw, 20vw; 
-  background-position-x: -20vw, right, right;
-  background-position-y: top, top, bottom;
+
+
+@media screen and (max-width: 840px) {
+  #hero {
+    background-image: url('./assets/Mask Group 4.svg');
+    background-size: 100vw auto;
+  }
+  #about-us {
+    background-image: url('./assets/About-Us.svg'), url('./assets/About-Us2.svg'), url('./assets/About-Us3.svg');
+    background-size: 60vw, 20vw, 20vw; 
+    background-position-x: -20vw, right, right;
+    background-position-y: top, top, bottom;
+  }
 }
+
+
+/* MOBILE */
+@media screen and (max-width: 520px) {
+  #hero {
+    background-image: url('./assets/Mask Group 4.svg');
+    background-size: 620px auto;
+    width: 580px;
+  }
+  #navbar{
+    background-color: #0E77FF;
+    width: 580px;
+  }
+
+  #about-us {
+    background-image: url('./assets/About-Us.svg'), url('./assets/About-Us2.svg'), url('./assets/About-Us3.svg');
+    background-size: 50vw, 16vw, 16vw; 
+    background-position-x: -20vw, right, right;
+    background-position-y: 40px, top, bottom;
+    width: 540px;
+  }
+}
+
+
 
 #core-tech {
  background-image: url('./assets/Set-Of-Tri.svg');

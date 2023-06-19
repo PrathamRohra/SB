@@ -65,26 +65,38 @@
 </template>
 
 <script>
+import { mapGetters, mapState, mapMutations } from 'vuex'
+
 export default {
   name: "OurServices",
-  data() {
-    return {
-      ourServices: [
-        "Web Development",
-        "App Development",
-        "UI/UX Designing",
-        "Branding",
-        "Cloud Technologies",
-      ],
-      selectedService: "UI/UX Designing",
-      showServiceDetails: true,
-    };
+  // data() {
+  //   return {
+  //     ourServices: [
+  //       "Web Development",
+  //       "App Development",
+  //       "UI/UX Designing",
+  //       "Branding",
+  //       "Cloud Technologies",
+  //     ],
+  //     selectedService: "UI/UX Designing",
+  //     showServiceDetails: true,
+  //   };
+  // },
+  computed: {
+    ...mapGetters([
+      'ourServices',
+      'selectedService',
+      'showServiceDetails'
+    ])
   },
   methods: {
-    displayServiceDetails(service) {
-      this.selectedService = service;
-      this.showServiceDetails = true;
-    },
+    // displayServiceDetails(service) {
+    //   this.selectedService = service;
+    //   this.showServiceDetails = true;
+    // },
+    ...mapMutations([
+      'displayServiceDetails'
+    ])
   },
 };
 </script>

@@ -1,5 +1,5 @@
 # [Name Goes Here]
-This project is built with Vue.js and Chart.js styled with TailwindCSS.
+This project is built with Vue.js and Chart.js styled with TailwindCSS. Additionally, this project uses Vuex to access data through globalized store.
 
 The following sections provide an overview of the project structure and the contents of the `src/` directory.
 
@@ -17,6 +17,8 @@ The `src/` directory contains the following folders and files:
 5. `components/Home/`: Contains the components specific to the Home page.
 
 6. `components/Dashboard/`: Includes the components specific to the Dashboard page.
+
+7. `store/`: Contains Vuex store defined in the `index.js` file.
 
 ## Usage
 To start using this Vue.js application, follow these steps:

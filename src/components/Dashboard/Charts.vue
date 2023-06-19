@@ -40,6 +40,9 @@ export default {
       required: true,
       default:[6, 2, 3, 6, 1], 
     },
+    color: {
+      type: String
+    }
   },
   components: {
     Line,
@@ -50,24 +53,12 @@ export default {
   data() {
     return {
       data: {
-        // chartD: {
-        //   labels: ["January", "February", "March", "New", "Hey"],
-        //   datasets: [
-        //     {
-        //       backgroundColor: "white",
-        //       borderColor: "black",
-        //       borderWidth: 2,
-        //       data: [6, 2, 3, 6, 1],
-        //       fill: false,
-        //     },
-        //   ],
-        // },
         chartD2: {
           labels: ["1", "2", "3", "4", "5", "6", "7"],
           datasets: [
             {
               backgroundColor: "white",
-              borderColor: "#0F77FA",
+              borderColor: this.color,
               borderWidth: 2,
               data: this.chartData.map((num)=>Number(num)),
               fill: false,

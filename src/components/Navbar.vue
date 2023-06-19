@@ -1,11 +1,12 @@
 <template>
   <nav
-    class="bg-blue text-white flex flex-row items-center justify-between pl-10 pr-10 md:pl-20 md:pr-20 lg:pl-[281px] lg:pr-[281px] pt-[40px] md:pt-[67px] pb-6 selection:bg-white selection:text-blue"
+    id="navbar"
+    class="bg-blue text-white flex flex-row items-center justify-between pl-10 md:pl-16 md:pr-16 lg:pl-[140px] xl:pl-[281px] xl:pr-[281px] pt-[40px] md:pt-[67px] pb-6 selection:bg-white selection:text-blue"
   >
     <div>
       <h1>Logo</h1>
     </div>
-    <div class="flex flex-row space-x-[40px] items-center h-14">
+    <div id="nav--contents" class="md:flex lg:pr-10 flex-row md:space-x-[20px] items-center h-14 hidden">
       <p>About</p>
       <p>Services</p>
       <p>Case Studies</p>
