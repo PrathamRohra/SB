@@ -19,9 +19,9 @@
         <div class="flex flex-col max-w-[70vw] md:max-w-[140px] mb-10 lg:max-w-lg space-y-1 md:space-y-2">
             <h1 class="mb-3 underline text-xs xl:text-lg decoration-[3px] decoration-[#21B3FF]">Our Services</h1>
             <p class="text-[8px] xl:text-sm font-extralight">Web Development</p>
-            <p class="text-[8px] font-extralight">Mobile Development</p>
-            <p class="text-[8px] font-extralight">UX Designing</p>
-            <p class="text-[8px] font-extralight">Cloud Technologies</p>
+            <p class="text-[8px] xl:text-sm font-extralight">Mobile Development</p>
+            <p class="text-[8px] xl:text-sm font-extralight">UX Designing</p>
+            <p class="text-[8px] xl:text-sm font-extralight">Cloud Technologies</p>
         </div>
 
         <!--Our Links-->
